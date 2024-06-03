@@ -1,0 +1,62 @@
+.about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%; /* O el tamaño que necesites */
+  }
+  
+  @media screen and (min-width: 768px) {
+    .about-me {
+      flex-direction: row;
+    }
+  }
+  
+  .about-me-left,
+  .about-me-right {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid blue; /* Cambia el color del borde según tu preferencia */
+  }
+  
+  .image-container {
+
+    height: 70%;
+    width: auto;
+    -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 90%, rgba(0, 0, 0, 0));
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 90%, rgba(0, 0, 0, 0));
+    ;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    height: 100%;
+  }
+  
+
+  
+  .about-me-right {
+    border: 1px solid red; /* Cambia el color del borde según tu preferencia */
+    text-align: center;
+  }
+  
+  .about-me-right h2 {
+    font-size: 20px; /* Ajusta el tamaño de fuente según lo necesites */
+  }
+  
+  .about-me-right p {
+    font-size: 14px; /* Ajusta el tamaño de fuente según lo necesites */
+  }
+  
+  @media screen and (min-width: 768px) {
+    .about-me-left,
+    .about-me-right {
+      height: 100%;
+      width: 50%;
+    }
+  }
+  

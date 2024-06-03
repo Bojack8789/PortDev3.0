@@ -1,0 +1,49 @@
+#root {
+  margin: 0 ;
+  padding: 0;
+  width: 100vw;
+  height: 100%;
+  overflow-x: hidden;
+  box-sizing: content-box;
+}
+
+section{
+  border: 1px solid red;
+  background-color: rgba(255, 255, 255, 0);
+  height: 90vh;
+  width: 90%;
+  z-index: 1;
+}
+
+.Body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.VideoBackgroundContainer {
+  background-color: black;
+}
+
+.Section {
+  height: 70vh;
+  width: 90vw;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.SectionWithMargin {
+  margin-top: 25vh;
+}
+.Header{
+  border: 1px solid red;
+  height: 10vh;
+  width: 100%;
+
+}
+.Footer{
+    border: 1px solid red;
+    height: 15vh;
+    width: 100%;
+    margin-top: 5vh ;
+}
