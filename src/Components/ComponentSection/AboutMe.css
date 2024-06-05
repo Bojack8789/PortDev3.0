@@ -71,5 +71,15 @@
       height: 100%;
       width: 50%;
     }
+ 
   }
+
+  @media screen and (min-width: 300px) {
+    .about-me-left,
+    .about-me-right {
+      max-height: 200%;
+      height: 80%;
+      max-width: 80%;
+      border: 1px solid black;
+    }}
   

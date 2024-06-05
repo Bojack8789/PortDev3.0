@@ -4,6 +4,9 @@ import VideoBackground from './Components/VideoBackground';
 import HeroTypingEffect from './Components/HeroTypingEffect';
 import ScrollRevealSection from './Components/ScrollRevealSection';
 
+import CardTransparent from './Components/CardTransparent';
+import Skills from './Components/ComponentSection/Skills';
+
 import AboutMe from './Components/ComponentSection/AboutMe';
 
 import './App.css';
@@ -24,14 +27,15 @@ function App() {
         <ScrollRevealSection>
         <AboutMe imageSrc={'/public/AstronautaAvatar.png'} />
         </ScrollRevealSection>
-
-        <ScrollRevealSection>
-          <h2>Sección 3</h2>
-          <p>Contenido de la tercera sección...</p>
+      
+        <ScrollRevealSection> 
+        <Skills/>
         </ScrollRevealSection>
         <ScrollRevealSection>
+        <CardTransparent>
           <h2>Sección 4</h2>
-          <p>Contenido de la cuarta sección...</p>
+          <p>Contenido de la tercera sección...</p>
+          </CardTransparent>
         </ScrollRevealSection>
         <ScrollRevealSection>
           <h2>Sección 5</h2>

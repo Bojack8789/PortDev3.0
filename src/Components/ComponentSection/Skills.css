@@ -1,0 +1,45 @@
+.skills-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100%; /* O el tamaño que necesites */
+  }
+  
+  .skill {
+    height: 100%;
+    border: 1px solid red;
+  }
+  
+  .left {
+    width: 50%;
+  }
+  
+  .right {
+    width: 50%;
+  }
+  .skill-title{
+    height: 20%;
+    border: 1px solid red;
+  }
+  .skill-content-right, .skill-content-left{
+    height: 80%;
+    border: 1px solid red;
+  }
+  .skill-content-left{
+    padding: 5px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    max-width: 100%;
+    
+  }
+  .icon{
+    border: 1px solid red;
+
+    max-width: 10%;
+
+  }
+  .img{
+    height: 30px;
+  }
